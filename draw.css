@@ -6,12 +6,13 @@ html,body {
 }
 li {
     color: white;
-    text-align: left;
-    font-size: 1.3rem;
+    text-align:center;
+    font-size: 3rem;
     }
 p{
 color: white;
-}    
+}
+
 h1,h2,h3{
     padding: 0px;
     color: white;
@@ -27,24 +28,22 @@ img {
     max-height: 100%;
     max-width: 100%;
 }
-.icon {
+#osulogo {
 	max-height: 70px;
 	position:absolute;
 	top: 4%;
 	left: 2%;
 }
-#osupfp {
-	max-height: 300px;
-	position:absolute;
-	top:20%;
-	left:5%;
+.icon{
+max-height:7rem;
 }
 
-.about_me{
-    margin: 20px;
-    background-color: #080714;
-    text-align: center;
-    padding:20px;
+#about_me{
+    background-image: url('img/bg.jpg');
+    background-color: rgb(0, 0, 0, 0.55);
+    background-blend-mode: multiply;
+    background-position: center;
+    background-size: cover;
 }
 
 .header{
@@ -56,7 +55,7 @@ img {
     overflow-y: hidden;
 }
 #header-img{
-    background-image: url('img/bg.jpg');
+    background-image: url('img/bg2.jpg');
     background-color: rgb(0, 0, 0, 0.66);
     background-blend-mode: multiply;
     background-position: center;
@@ -69,14 +68,33 @@ img {
     background-position: center;
     background-size: cover;
 }
-#info{
-position:absolute;
-top:10%;
-left:22%;
-font-size:2.5rem;
+.center{
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%)
 }
+
 #note{
 text-align: center;
 font-size: .7rem;
 color:white;
 }
+
+.column {
+  float: right;
+  width: 70%;
+  font-size:2.5rem;
+}
+.column2 {
+  float:left;
+  width: 25%;
+}
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
