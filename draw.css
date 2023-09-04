@@ -35,7 +35,7 @@ img {
 	left: 2%;
 }
 .icon{
-max-height:7rem;
+max-height:2rem;
 }
 
 #about_me{
@@ -44,6 +44,19 @@ max-height:7rem;
     background-blend-mode: multiply;
     background-position: center;
     background-size: cover;
+}
+#center{
+display:flex;
+position:relative;
+align-items:center;
+justify-content:center;
+}
+.buttons{
+text-align:center;
+position:relative;
+display: inline-block;
+align-items: center;
+justify-content:center;
 }
 
 .header{
@@ -70,7 +83,7 @@ max-height:7rem;
 }
 .center{
     margin: 0;
-    position: absolute;
+    position: relative;
     top: 50%;
     left: 50%;
     margin-right: -50%;
@@ -96,5 +109,6 @@ color:white;
   content: "";
   display: table;
   clear: both;
+  display:flex;
 }
 
